@@ -6,16 +6,44 @@
 -->
 <ion-header>
 
-  <ion-navbar color="primary">
-    <ion-title>Acerca</ion-title>
-    <button ion-button menuToggle>
+    <ion-navbar color="primary">
+        <ion-title>Acerca</ion-title>
+        <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-  </ion-navbar>
+    </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+    <img src="/assets/images/tecnosoftware-cover.jpg" alt="">
+    <h1 class="titulo">Curso Ionic 2 Básico</h1>
+    <p class="texto">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido
+        usó una galería de textos y los mezcló</p>
 
+    <ion-slides spaceBetween="10" pager>
+        <ion-slide>
+            <img src="/assets/images/curso-cover.jpg" alt="">
+        </ion-slide>
+        <ion-slide>
+            <img src="/assets/images/rails-cover.jpg" alt="">
+        </ion-slide>
+        <ion-slide>
+            <img src="/assets/images/laravel-cover.jpg" alt="">
+        </ion-slide>
+        <ion-slide>
+            <img src="/assets/images/firebase-cover.jpg" alt="">
+        </ion-slide>
+    </ion-slides>
+    <ion-grid>
+        <ion-row>
+            <button ion-button full icon-left color="primary">
+         <ion-icon name="logo-facebook"></ion-icon>
+         Facebook</button>
+            <button ion-button full icon-left color="dark">
+         <ion-icon name="logo-github"></ion-icon>
+         Github</button>
+        </ion-row>
+    </ion-grid>
 </ion-content>
